@@ -1,0 +1,51 @@
+id,name,balance,type,status,date
+1000,Alex Spartan 1,0,Tuition,paid,2024-03-01
+1001,Jordan Gold 2,1235,Lab Fees,overdue,2024-03-02
+1002,Taylor Blue 3,1508,Housing,partial,2024-03-03
+1003,Casey Grey 4,0,Health Insurance,paid,2024-03-04
+1004,Sam Tower 5,1160,Orientation,overdue,2024-03-05
+1005,Morgan Field 6,595,Tuition,partial,2024-03-06
+1006,Riley West 7,0,Lab Fees,paid,2024-03-07
+1007,Peyton East 8,2422,Housing,overdue,2024-03-08
+1008,Quinn North 9,276,Health Insurance,partial,2024-03-09
+1009,Avery South 10,0,Orientation,paid,2024-03-10
+1010,Alex Spartan 11,1803,Tuition,overdue,2024-03-11
+1011,Jordan Gold 12,1784,Lab Fees,partial,2024-03-12
+1012,Taylor Blue 13,0,Housing,paid,2024-03-13
+1013,Casey Grey 14,2335,Health Insurance,overdue,2024-03-14
+1014,Sam Tower 15,2018,Orientation,partial,2024-03-15
+1015,Morgan Field 16,0,Tuition,paid,2024-03-16
+1016,Riley West 17,494,Lab Fees,overdue,2024-03-17
+1017,Peyton East 18,2227,Housing,partial,2024-03-18
+1018,Quinn North 19,0,Health Insurance,paid,2024-03-19
+1019,Avery South 20,1658,Orientation,overdue,2024-03-20
+1020,Alex Spartan 21,111,Tuition,partial,2024-03-21
+1021,Jordan Gold 22,0,Lab Fees,paid,2024-03-22
+1022,Taylor Blue 23,3055,Housing,overdue,2024-03-23
+1023,Casey Grey 24,286,Health Insurance,partial,2024-03-24
+1024,Sam Tower 25,0,Orientation,paid,2024-03-25
+1025,Morgan Field 26,636,Tuition,overdue,2024-03-26
+1026,Riley West 27,2650,Lab Fees,partial,2024-03-27
+1027,Peyton East 28,0,Housing,paid,2024-03-28
+1028,Quinn North 29,1432,Health Insurance,overdue,2024-03-01
+1029,Avery South 30,2176,Orientation,partial,2024-03-02
+1030,Alex Spartan 31,0,Tuition,paid,2024-03-03
+1031,Jordan Gold 32,3076,Lab Fees,overdue,2024-03-04
+1032,Taylor Blue 33,2644,Housing,partial,2024-03-05
+1033,Casey Grey 34,0,Health Insurance,paid,2024-03-06
+1034,Sam Tower 35,3015,Orientation,overdue,2024-03-07
+1035,Morgan Field 36,485,Tuition,partial,2024-03-08
+1036,Riley West 37,0,Lab Fees,paid,2024-03-09
+1037,Peyton East 38,2400,Housing,overdue,2024-03-10
+1038,Quinn North 39,1883,Health Insurance,partial,2024-03-11
+1039,Avery South 40,0,Orientation,paid,2024-03-12
+1040,Alex Spartan 41,1222,Tuition,overdue,2024-03-13
+1041,Jordan Gold 42,2654,Lab Fees,partial,2024-03-14
+1042,Taylor Blue 43,0,Housing,paid,2024-03-15
+1043,Casey Grey 44,2667,Health Insurance,overdue,2024-03-16
+1044,Sam Tower 45,2795,Orientation,partial,2024-03-17
+1045,Morgan Field 46,0,Tuition,paid,2024-03-18
+1046,Riley West 47,646,Lab Fees,overdue,2024-03-19
+1047,Peyton East 48,596,Housing,partial,2024-03-20
+1048,Quinn North 49,0,Health Insurance,paid,2024-03-21
+1049,Avery South 50,1107,Orientation,overdue,2024-03-22

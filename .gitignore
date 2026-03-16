@@ -1,0 +1,22 @@
+# Environment Variables
+.env
+.env.*
+*.local
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.log
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# OS Files
+.DS_Store
