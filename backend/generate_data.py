@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-# Generate the same 50 students data as the original JS implementation
+# Generate the same 50 students data.
 def generate_data():
     names = ['Alex Spartan', 'Jordan Gold', 'Taylor Blue', 'Casey Grey', 'Sam Tower', 'Morgan Field', 'Riley West', 'Peyton East', 'Quinn North', 'Avery South']
     types = ['Tuition', 'Lab Fees', 'Housing', 'Health Insurance', 'Orientation']
