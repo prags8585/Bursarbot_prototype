@@ -23,8 +23,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-openai.api_key = os.getenv("VITE_OPENAI_API_KEY")
-
 class ChatRequest(BaseModel):
     messages: list
 
@@ -60,8 +58,12 @@ def get_insights():
 
 @app.post("/api/chat")
 async def chat(request: ChatRequest):
-    if not openai.api_key:
+    # Fetch dynamically to avoid Vercel Serverless environment race conditions
+    api_key = os.getenv("VITE_OPENAI_API_KEY")
+    if not api_key:
         raise HTTPException(status_code=500, detail="OpenAI API key not configured on the server")
+    
+    openai.api_key = api_key
         
     try:
         # Load data to inject deterministic counts
