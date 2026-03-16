@@ -25,7 +25,9 @@ import {
 import axios from 'axios';
 
 const SJSU_LOGO = "/sjsu-spartan.png";
-const API_BASE_URL = "http://localhost:8000/api";
+// Dynamically use the correct API URL (relative in Vercel prod, absolute in local dev)
+const isProd = import.meta.env.PROD;
+const API_BASE_URL = isProd ? "/api" : "http://localhost:8000/api";
 
 // Helper for PII Masking
 const maskPII = (inputVal, type = 'name') => {

@@ -10,6 +10,10 @@ load_dotenv()
 
 app = FastAPI()
 
+# Absolute path for Vercel serverless environment
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CSV_PATH = os.path.join(BASE_DIR, "students.csv")
+
 # Enable CORS for the React frontend
 app.add_middleware(
     CORSMiddleware,
@@ -27,7 +31,7 @@ class ChatRequest(BaseModel):
 @app.get("/api/students")
 def get_students():
     try:
-        df = pd.read_csv("students.csv")
+        df = pd.read_csv(CSV_PATH)
         # Convert NaN to None for JSON serialization
         df = df.where(pd.notnull(df), None)
         return df.to_dict(orient="records")
@@ -37,7 +41,7 @@ def get_students():
 @app.get("/api/insights")
 def get_insights():
     try:
-        df = pd.read_csv("students.csv")
+        df = pd.read_csv(CSV_PATH)
         total_students = len(df)
         overdue_count = len(df[df["status"] == "overdue"])
         partial_count = len(df[df["status"] == "partial"])
@@ -61,7 +65,7 @@ async def chat(request: ChatRequest):
         
     try:
         # Load data to inject deterministic counts
-        df = pd.read_csv("students.csv")
+        df = pd.read_csv(CSV_PATH)
         total_count = len(df)
         overdue_count = len(df[df['status'] == 'overdue'])
         partial_count = len(df[df['status'] == 'partial'])
