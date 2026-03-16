@@ -1,8 +1,8 @@
-# BursarBot (v2) - SJSU AI Administrative Portal 🛡️🤖
+# BursarBot (v1) - SJSU AI Administrative Portal 🛡️🤖
 
 **BursarBot** is a secure, full-stack AI administrative orchestrator prototype designed specifically for the San José State University (SJSU) Office of the Bursar. It demonstrates how Large Language Models (LLMs) can securely interface with institutional financial databases to automate student outreach, handle NLP-based account inquiries, and provide predictive financial analytics.
 
-This is **Version 2**, which evolves the prototype from a purely front-end application to a robust **FastAPI (Python) + React (JavaScript)** full-stack architecture.
+This is **Version 1**, which evolves the prototype from a purely front-end application to a robust **FastAPI (Python) + React (JavaScript)** full-stack architecture.
 
 ---
 
