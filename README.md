@@ -41,7 +41,7 @@ The backend requires Python and your OpenAI API key.
 
 1. Open a terminal and navigate to the backend directory:
    ```bash
-   cd bursarbot-sjsu2/backend
+   cd bursarbot-sjsu2/api
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -52,7 +52,7 @@ The backend requires Python and your OpenAI API key.
    ```bash
    pip install fastapi uvicorn pandas openai pydantic python-dotenv
    ```
-4. Create a `.env` file in the `backend/` directory and add your key:
+4. Create a `.env` file in the `api/` directory and add your key:
    ```env
    VITE_OPENAI_API_KEY=sk-proj-...
    ```
@@ -62,7 +62,7 @@ The backend requires Python and your OpenAI API key.
    ```
 6. Start the FastAPI server:
    ```bash
-   uvicorn main:app --reload --port 8000
+   uvicorn index:app --reload --port 8000
    ```
    *The backend will be running at `http://localhost:8000`. You can view the API documentation at `http://localhost:8000/docs`.*
 
